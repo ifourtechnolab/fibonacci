@@ -24,3 +24,6 @@ User browser to access H2 console: localhost:8081/h2-console<br>
 
 ## Caching
 Using Hibernate L2 cache for entity caching. Implemented by EHCache.
+
+## Tests
+Tests are integration tests using Spring MVC Mock 
