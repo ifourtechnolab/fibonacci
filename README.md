@@ -1,17 +1,20 @@
-# API documentation
+# About this app
 
-```
-localhost:8081/swagger-ui/#
-```
 
-# Running this app
+## Running this app
 Download the source and run it as spring boot app
 
 ```
 mvn spring-boot:run
 ```
 
-# Persistance: H2 Database
+## API documentation
+
+```
+localhost:8081/swagger-ui/#
+```
+
+## Persistance: H2 Database
 User browser to access H2 console: localhost:8081/h2-console<br>
 
 - Connection details:
@@ -19,3 +22,5 @@ User browser to access H2 console: localhost:8081/h2-console<br>
   - username=admin<br>
   - password=admin<br>
 
+## Caching
+Using Hibernate L2 cache for entity caching. Implemented by EHCache.
